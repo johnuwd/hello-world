@@ -1,5 +1,8 @@
 class prem{
   public static void main(String args[]){
-    System.out.println("hello world");
+    BufferedReader br=new BufferedReader(new InputStreamReader(System.in));
+    String name;
+    br.readLine();
+    System.out.println("hello"+name);
     }
  }
